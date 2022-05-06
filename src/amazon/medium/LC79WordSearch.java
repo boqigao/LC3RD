@@ -16,10 +16,8 @@ public class LC79WordSearch {
             row = board.length;
             col = board[0].length;
             boolean ans = false;
-            boolean[][] visited = new boolean[row][col];
             for (int i = 0; i < board.length; i++) {
                 for (int j = 0; j < board[0].length; j++) {
-                    visited[i][j] = true;
                     ans = dfs(board, word, i, j);
                     if (ans) {
                         return true;
