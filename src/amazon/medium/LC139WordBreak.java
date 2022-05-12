@@ -2,6 +2,9 @@ package amazon.medium;
 
 import java.util.*;
 
+/**
+ * keywords: dp and bfs
+ */
 public class LC139WordBreak {
     /**
      * dp
@@ -50,7 +53,6 @@ public class LC139WordBreak {
                 if (visited[start]) {
                     continue;
                 }
-
                 for (int end = start + 1; end <= len; end++) {
                     if (set.contains(s.substring(start, end))) {
                         queue.offer(end);
@@ -58,7 +60,6 @@ public class LC139WordBreak {
                             return true;
                         }
                     }
-
                 }
                 visited[start] = true;
             }

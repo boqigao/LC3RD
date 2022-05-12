@@ -1,5 +1,8 @@
 package freq;
 
+/**
+ * key words: trick
+ */
 public class LC680ValidPalindromeII {
     class Solution {
         public boolean validPalindrome(String s) {

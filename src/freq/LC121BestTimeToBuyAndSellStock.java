@@ -1,5 +1,8 @@
 package freq;
 
+/**
+ * key words, stock, dp,
+ */
 public class LC121BestTimeToBuyAndSellStock {
     class Solution {
         public int maxProfit(int[] prices) {

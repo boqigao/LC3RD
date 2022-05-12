@@ -5,7 +5,14 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-//key words: 并查集，图
+//k ey words: 并查集，图
+
+/**
+ * key words 最小生成树，minimum spanning tree
+ *
+ * prim
+ * kruskal
+  */
 public class LC1584MinCostToConnectAllPoints {
 
     class SolutionPrimOptimized {

@@ -1,6 +1,6 @@
 package daily;
 
-public class LC905 {
+public class LC905SortArrayByParity {
     class Solution {
         private void swap(int[] nums, int i, int j) {
             int tmp = nums[i];

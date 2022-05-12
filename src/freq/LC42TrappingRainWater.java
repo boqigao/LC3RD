@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /**
  * keyword：单调栈, 双数组
+ * monotonic stack
  */
 public class LC42TrappingRainWater {
     public static void main(String[] args) {
