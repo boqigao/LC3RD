@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * keyword: back track
+ * keyword: backtrack
  */
 public class LC47PermutationsII {
     class Solution {

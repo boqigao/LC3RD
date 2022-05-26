@@ -2,7 +2,6 @@ package microsoft.medium;
 
 public class LC200NumberOfIslands {
     class Solution {
-
         public int numIslands(char[][] grid) {
             int row = grid.length;
             int col = grid[0].length;
@@ -28,6 +27,7 @@ public class LC200NumberOfIslands {
             if (grid[x][y] == '2' || grid[x][y] == '0') {
                 return;
             }
+
 
             grid[x][y] = '2';
             dfs(grid, x + 1, y);
